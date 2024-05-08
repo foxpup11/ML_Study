@@ -18,9 +18,9 @@ import copy
 import json
 from PIL import Image
 
-data_dir = r'F:\ML_practice\Source\flower_data'
-train_dir = r'F:\ML_practice\ML_Python\Source\flower_data\train'
-valid_dir = r'F:\ML_practice\ML_Python\Source\flower_data\valid'
+data_dir = r'F:/ML_practice/ML_Python/Source/flower_data'
+train_dir = r'F:/ML_practice/ML_Python/Source/flower_data/train'
+valid_dir = r'F:/ML_practice/ML_Python/Source/flower_data/valid'
 
 data_transforms = {
     'train': transforms.Compose([transforms.RandomRotation(45),
@@ -45,7 +45,7 @@ dataloaders = {x: torch.utils.data.DataLoader(image_datasets[x], batch_size=batc
 dataset_sizes = {x: len(image_datasets[x]) for x in ['train', 'valid']}
 class_names = image_datasets['train'].classes
 
-with open('cat_to_name.json', 'r') as f:
+with open('F:/ML_practice/ML_Python/Source/flower_data/cat_to_name.json', 'r') as f:
     cat_to_name = json.load(f)
 
 
