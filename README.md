@@ -3,6 +3,6 @@
 
 Andrew Ng_DLStudy：吴恩达的课后练习
 
-ML_Python：刘海军老师和唐宇迪的相关编程练习，包括OPENCV,PYTORCH等
+ML_Python：刘海军老师和唐宇迪的相关编程练习，除普通机器学习外还包括OPENCV,PYTORCH等
 
 text:一个词文本处理项目
