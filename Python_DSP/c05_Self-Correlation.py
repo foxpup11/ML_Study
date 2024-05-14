@@ -1,6 +1,6 @@
 # Author:SiZhen
 # Create: 2024/5/13
-# Description:
+# Description:自相关
 import thinkdsp
 import numpy as np
 import matplotlib.pyplot as plt
