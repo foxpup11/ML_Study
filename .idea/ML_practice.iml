@@ -3,9 +3,10 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/text" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Andrew Ng_DLStudy/week_01_RecoCat" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Andrew Ng_DLStudy/Course_01/week_02_RecoCat" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Python_DSP" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Andrew Ng_DLStudy/week_02_EasyNN" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Andrew Ng_DLStudy/Course_01/week_03_EasyNN" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Andrew Ng_DLStudy/Course_01/week_04_ComplRecoCat" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
