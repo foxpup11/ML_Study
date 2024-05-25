@@ -1,6 +1,6 @@
-# Author:司震
+# Author:Sizhen
 # Create: 2024/5/9
-# Description: 第X天练习：采用逻辑回归搭建一个识别猫的简单神经网络
+# Description: 采用逻辑回归搭建一个识别猫的简单神经网络
 import numpy as np
 import matplotlib.pyplot as plt
 import h5py

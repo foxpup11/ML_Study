@@ -34,8 +34,8 @@ model=LinearRegressionModel(input_dim,output_dim)
 #print(model)
 
 #使用GPU去训练
-# device=torch.device("cuda:0"if torch.cuda.is_available() else "cpu")
-# model.to(device)
+device=torch.device("cuda:0"if torch.cuda.is_available() else "cpu")
+model.to(device)
 
 #指定好参数和损失函数
 epochs=1000
@@ -47,11 +47,11 @@ criterion=nn.MSELoss() #MSE：均方误差损失函数
 for epoch in range(epochs):
     epoch +=1
     #注意转成tensor类型(np的数组是array类型的)
-    inputs=torch.from_numpy(x_train)
-    labels=torch.from_numpy(y_train)
+    #inputs=torch.from_numpy(x_train)
+    #labels=torch.from_numpy(y_train)
     #若使用GPU去训练：
-    # inputs = torch.from_numpy(x_train).to(device)
-    # labels = torch.from_numpy(y_train).to(device)
+    inputs = torch.from_numpy(x_train).to(device)
+    labels = torch.from_numpy(y_train).to(device)
 
     #梯度要清零每一次迭代（如果不清零每次梯度计算会累加起来）
     optimizer.zero_grad()

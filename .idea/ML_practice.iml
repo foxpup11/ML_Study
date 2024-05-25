@@ -7,8 +7,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Python_DSP" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Andrew Ng_DLStudy/Course_01/week_03_EasyNN" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Andrew Ng_DLStudy/Course_01/week_04_ComplRecoCat" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Andrew Ng_DLStudy/Course_02/week_01_Regularization" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (sizhen02)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
