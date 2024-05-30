@@ -1,6 +1,6 @@
-# Author:司震
+# Author:Sizhen
 # Create: 2024/4/24
-# Description: 第2天练习：气温预测实战（回归）
+# Description: pytoch气温预测实战（回归）
 import sklearn
 import torch
 import torch.nn as nn
@@ -75,9 +75,9 @@ x=torch.tensor(input_features,dtype=float)
 y=torch.tensor(labels,dtype=float)
 #权重参数初始化
 weights=torch.randn((14,128),dtype=float,requires_grad=True) #第一个隐层，128个神经元
-biases=torch.randn(128,dtype=float,requires_grad=True) #对128个神经元微调
+biases=torch.randn(128,dtype=float,requires_grad=True) #偏差
 weights2=torch.randn((128,1),dtype=float,requires_grad=True) #第二个隐层，得到一个值
-biases2=torch.randn(1,dtype=float,requires_grad=True) #对得到的值微调
+biases2=torch.randn(1,dtype=float,requires_grad=True) #偏差
 
 learning_rate=0.001
 losses=[]

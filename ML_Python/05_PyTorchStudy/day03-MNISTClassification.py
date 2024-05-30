@@ -13,7 +13,6 @@ import torch.nn.functional as F
 from torchvision import  datasets,transforms
 import matplotlib.pyplot as plt
 from pathlib import Path
-import requests
 import pickle
 import gzip
 from torch.utils.data import TensorDataset
