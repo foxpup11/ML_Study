@@ -15,7 +15,7 @@ class Residual(nn.Module):
                              ,padding=1,stride=strides)
         self.conv2 = nn.Conv2d(input_channels,num_channels,kernel_size=3,
                                padding=1)
-        #1x1卷积层进行下采样，从而升维
+        #1x1卷积层进行下采样
         if use_1x1conv:
             self.conv3 = nn.Conv2d(input_channels,num_channels,
                                 kernel_size=1,stride=strides)
@@ -47,7 +47,7 @@ def resnet18(num_classes,in_channels=1):
                      first_block=False):
         blk=[]
         for i in range(num_residuals):
-            # 是否需要1x1卷积进行升维
+            # 是否需要1x1卷积
             if i==0 and not first_block:
                 blk.append(Residual(in_channels,out_channels,
                                     use_1x1conv=True,strides=2))
